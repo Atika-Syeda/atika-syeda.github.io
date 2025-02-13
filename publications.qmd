@@ -1,0 +1,107 @@
+---
+title: "Publications"
+echo: false
+jupyter: python3
+section-divs: false
+keep-md: true
+format: html
+---
+
+```{python}
+import yaml
+from IPython.display import display, Markdown, HTML
+from scholarly import scholarly
+from collections import defaultdict
+
+import yaml
+from IPython.display import display, Markdown, HTML
+from scholarly import scholarly
+from collections import defaultdict
+
+def readable_list(_s):
+    if len(_s) < 3:
+        return ' and '.join(map(str, _s))
+    *a, b = _s
+    return f"{', '.join(map(str, a))}, and {b}"
+
+def button(url, text, icon):
+    icon_base = icon[:2]
+    return f"""<a class="btn btn-outline-dark btn-sm" href="{url}" target="_blank" rel="noopener noreferrer">
+        <i class="{icon_base} {icon}" role='img' aria-label='{text}'></i>
+        {text}
+    </a>"""
+
+# Function to fetch publications from Google Scholar
+def fetch_publications(scholar_id):
+    try:
+        author = scholarly.fill(scholarly.search_author_id(scholar_id))
+        return author.get('publications', [])
+    except Exception as e:
+        return [f"Error fetching publications: {e}"]
+
+# Load publications from YAML
+yaml_data = yaml.safe_load(open("papers.yaml"))
+pub_strs = {"pubs": {}, "wps": {}}
+
+# Fetch Google Scholar publications
+scholar_id = "AebpXJgAAAAJ"  # Replace with your Google Scholar ID
+publications = fetch_publications(scholar_id)
+
+# Create a lookup table for citation counts
+citations_lookup = {pub['bib'].get('title', ''): pub.get('num_citations', "NA") for pub in publications}
+
+for _, data in yaml_data.items():
+    title_str = data["title"]
+    authors = data.get("authors", ["me"])
+    authors = [aut if aut != "me" else "<strong>Atika Syeda</strong>" for aut in authors]
+    author_str = readable_list(authors)
+    year_str = data["year"]
+
+    buttons = []
+    preprint = data.get("preprint")
+    if preprint is not None:
+        buttons.append(button(preprint, "Preprint", "bi-file-earmark-pdf"))
+
+    github = data.get("github")
+    if github is not None:
+        buttons.append(button(github, "Github", "bi-github"))
+
+    pub_url = data.get("published_url")
+    venue = data.get("venue")
+    working_paper = pub_url is None
+
+    pub_str = f'{author_str}. ({year_str}) "{title_str}."'
+    if venue is not None:
+        pub_str += f" <em>{venue}</em>"
+
+    # Get citation count
+    citation_count = citations_lookup.get(title_str, 0)
+    citation_display = f"<span class='badge bg-secondary'>Citations: {citation_count}</span>"
+
+    if working_paper:
+        if year_str not in pub_strs["wps"]:
+            pub_strs["wps"][year_str] = []
+        pub_strs["wps"][year_str].append(
+            "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + f" {citation_display}</li>"
+        )
+    else:
+        if year_str not in pub_strs["pubs"]:
+            pub_strs["pubs"][year_str] = []
+        buttons.append(button(pub_url, "Published", "ai-archive"))
+        pub_strs["pubs"][year_str].append(
+            "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + f" {citation_display}</li>"
+        )
+
+```
+
+
+```{python}
+#| label: "published-year"
+#| id: "published-year"
+#| output: asis
+for year in sorted(pub_strs["pubs"].keys(), reverse=True):
+    display(Markdown(f"### {year}" + "{#" + f"published-{year}" + "}"))
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["pubs"][year]) + "</ul>"
+    ))
+```

@@ -1,0 +1,72 @@
+softblock:
+  title: "Rastermap: a discovery method for neural population recordings"
+  authors:
+    - Carsen Stringer
+    - Lin Zhong
+    - me
+    - Fengtong Du
+    - Maria Kesa
+    - Marius Pachitariu
+  year: 2024
+  venue: Nature Neuroscience
+  preprint: https://www.biorxiv.org/content/10.1101/2023.07.25.550571v1
+  published_url: https://www.nature.com/articles/s41593-024-01783-4
+  github: https://github.com/mouseland/rastermap
+Astroplasticentry:
+  title: "Astroplastic: A start-to-finish process for polyhydroxybutyrate production from solid human waste using genetically engineered bacteria to address the challenges for future manned Mars missions"
+  authors:
+    - Xingyu Chen
+    - me
+    - Alina Kunitskaya
+    - Kaitlin Schaaf
+    - Zi Fei Wang
+    - Preetha Gopalakrishan
+    - Maliyat Noor
+    - Harry Wilton-Clark
+    - Jacob Grainger
+    - Alexandra Ivanova
+  year: 2018
+  venue: "bioRxiv"
+  preprint: "https://www.biorxiv.org/content/10.1101/288746v1"
+microelectrodeentry:
+  title: "Impact of open surface area of multi-well microelectrode array on mammalian brain cells recording efficiency"
+  authors:
+    - RS Pishgar
+    - P Wijdenes
+    - F Iqbal
+    - K Haidar
+    - me
+    - NI Syed
+    - C Dalton
+  year: 2020
+  venue: "Microfluidics, BioMEMS, and Medical Microsystems XVIII"
+  published_url: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11235/112350V/Impact-of-open-surface-area-of-multi-well-microelectrode-array-on/10.1117/12.2545298.short"
+peptideentry:
+  title: "A synthetic peptide rescues rat cortical neurons from anesthetic-induced cell death, perturbation of growth and synaptic assembly"
+  authors:
+    - Fahad Iqbal
+    - Marcus Pehar
+    - Andrew J Thompson
+    - Urva Azeem
+    - Kiana Jahanbakhsh
+    - Nerea Jimenez-Tellez
+    - Rasha Sabouny
+    - Shadab Batool
+    - me
+    - Jennifer Chow
+  year: 2021
+  venue: "Scientific Reports"
+  published_url: "https://www.nature.com/articles/s41598-021-84168-y"
+Facemapentry:
+  title: "Facemap: a framework for modeling neural activity based on orofacial tracking"
+  authors:
+    - me
+    - Lin Zhong
+    - Renee Tung
+    - Will Long
+    - Marius Pachitariu
+    - Carsen Stringer
+  year: 2024
+  venue: "Nature Neuroscience"
+  published_url: "https://www.nature.com/articles/s41593-023-01490-6"
+  github: "https://github.com/MouseLand/facemap"
