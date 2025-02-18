@@ -1,0 +1,17 @@
+- title: "Facemap"
+  description: |
+    I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicted activity driven by mouse orofacial movements across different cortical regions. It includes a pose estimation model for tracking distinct keypoints on the mouse face and a neural network model for predicting neural activity using the pose estimates.  
+  github: https://github.com/MouseLand/facemap
+  package: https://facemap.readthedocs.io/en/stable/
+  logo: "facemap.png"
+
+- title: "Tongue segmentation"
+  description: |
+    This project focuses on image segmentation of soft-body objects using various convolution neural networks. Specifically, the project uses data from a high-speed imaging camera to perform image segmentation to identify and track a soft-body object, namely the tongue, from static images of mouse faces recorded from a bottom view camera.  
+  github: https://github.com/Atika-Syeda/TongueSegmentation
+  
+- title: "Rastermap"
+  description: |
+    I also worked on developing GUI for rastermap algorithm. Rastermap is a discovery algorithm for neural data. The algorithm was written by Carsen Stringer and Marius Pachitariu. 
+  github: https://github.com/MouseLand/rastermap
+  package: https://pypi.org/project/rastermap/

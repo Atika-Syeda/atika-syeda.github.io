@@ -93,7 +93,7 @@ for _, data in yaml_data.items():
         )
 
 ```
-
+ 
 
 ```{python}
 #| label: "published-year"

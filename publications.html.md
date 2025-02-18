@@ -30,7 +30,7 @@ format: html
     </a> <a class="btn btn-outline-dark btn-sm" href="https://www.nature.com/articles/s41593-023-01490-6" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-archive" role='img' aria-label='Published'></i>
         Published
-    </a> <span class='badge bg-secondary'>Citations: 54</span></li></ul>
+    </a> <span class='badge bg-secondary'>Citations: 57</span></li></ul>
 ```
 
 ### 2021{#published-2021}

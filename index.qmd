@@ -1,7 +1,34 @@
 ---
-title: "website"
+title: "About"
+about:
+  template: trestles
+  image: profile.jpeg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Atika-Syeda
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/atika-syeda-73a556171/
+    - text: Google scholar
+      href: https://scholar.google.com/citations?user=AebpXJgAAAAJ&hl=en
 ---
 
-This is a Quarto website.
+I am a PhD student at Johns Hopkins-HHMI Janelia Research Campus as part of the joint graduate program. My research interests lie at the intersection of neuroscience and AI (machine learning). Check out my projects to learn more about my work.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## Education
+
+Johns Hopkins University, HHMI Janelia Research Campus | MD/VA, USA
+PhD in Neuroscience |  2022 - Present
+
+University of Oxford | Oxford, UK
+MSc in Neuroscience |  2019 - 2020
+
+University of Calgary | Calgary, Canada
+BHSc in Bioinformatics | 2015 - 2019
+
+
+## Experience
+
+HHMI Janelia Research Campus | Research/Software consultant | 2019 - 2022
