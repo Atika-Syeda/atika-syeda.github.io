@@ -1,0 +1,118 @@
+/* Main Theme: Professional and Minimal */
+
+/* Navbar Background and Text */
+.navbar {
+    background-color: #6d0095 !important; /* Purple */
+    border-bottom: 2px solid #6a038f; /* Darker purple for contrast */
+    padding: 10px 20px;
+}
+
+/* Navbar Links */
+.navbar a {
+    color: #ffffff !important; /* White text */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+/* Navbar Link Hover Effect */
+.navbar a:hover {
+    color: #e0e0e0 !important; /* Light gray on hover */
+    text-decoration: none;
+}
+
+/* Active Navbar Link */
+.navbar .active {
+    color: #e0e0e0 !important; /* Light gray for active link */
+    font-weight: bold;
+}
+
+/* Dropdown Menu */
+.navbar .dropdown-menu {
+    background-color: #6d0095 !important; /* Purple */
+    border: 1px solid #6a038f; /* Darker purple border */
+}
+
+/* Dropdown Menu Links */
+.navbar .dropdown-menu a {
+    color: #ffffff !important; /* White text */
+}
+
+/* Dropdown Menu Link Hover */
+.navbar .dropdown-menu a:hover {
+    background-color: #6a038f !important; /* Darker purple on hover */
+    color: #e0e0e0 !important; /* Light gray text on hover */
+}
+
+/* Main Theme: Body and Headers */
+body {
+    font-family: "Arial", sans-serif;
+    color: #333333; /* Dark gray for text */
+    background-color: #ffffff; /* White background */
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important; /* Black headers */
+    font-family: "Georgia", serif;
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #e0e0e0; /* Light gray underline */
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+/* Links in Content */
+a {
+    color: #000000 !important; /* Black links */
+    text-decoration: underline; /* Underline for clarity */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #555555 !important; /* Dark gray on hover */
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #6d0095 !important; /* Purple button */
+    border-color: #6a038f !important; /* Darker purple border */
+    color: #ffffff !important; /* White text */
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6a038f !important; /* Darker purple on hover */
+    border-color: #4b0266 !important; /* Even darker purple border */
+}
+
+/* Footer */
+.footer {
+    background-color: #6d0095 !important; /* Purple footer */
+    color: #ffffff !important; /* White text */
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #e0e0e0 !important; /* Light gray links in footer */
+}
+
+.footer a:hover {
+    color: #ffffff !important; /* White on hover */
+}

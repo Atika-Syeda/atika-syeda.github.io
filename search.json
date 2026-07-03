@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Facemap\n            I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicted activity driven by mouse orofacial movements across different cortical regions. It includes a pose estimation model for tracking distinct keypoints on the mouse face and a neural network model for predicting neural activity using the pose estimates.  \n\n             \n        \n        Github\n     \n        \n        Package\n     \n        \n        Paper\n     \n        \n    \n    \n\n    \n        \n        \n            \n        \n        \n        \n            Tongue segmentation\n            This project focuses on image segmentation of soft-body objects using various convolution neural networks. Specifically, the project uses data from a high-speed imaging camera to perform image segmentation to identify and track a soft-body object, namely the tongue, from static images of mouse faces recorded from a bottom view camera.  \n\n             \n        \n        Github\n       \n        \n    \n    \n\n    \n        \n        \n            \n        \n        \n        \n            Rastermap\n            I also worked on developing GUI for rastermap algorithm. Rastermap is a discovery algorithm for neural data. The algorithm was written by Carsen Stringer and Marius Pachitariu. \n\n             \n        \n        Github\n     \n        \n        Package\n     \n        \n        Paper"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "2024\nCarsen Stringer, Lin Zhong, Atika Syeda, Fengtong Du, Maria Kesa, and Marius Pachitariu. (2024) \"Rastermap: a discovery method for neural population recordings.\" Nature Neuroscience\n        \n        Preprint\n     \n        \n        Github\n     \n        \n        Published\n     Citations: 75\nAtika Syeda, Lin Zhong, Renee Tung, Will Long, Marius Pachitariu, and Carsen Stringer. (2024) \"Facemap: a framework for modeling neural activity based on orofacial tracking.\" Nature Neuroscience\n        \n        Github\n     \n        \n        Published\n     Citations: 171\n2021\nFahad Iqbal, Marcus Pehar, Andrew J Thompson, Urva Azeem, Kiana Jahanbakhsh, Nerea Jimenez-Tellez, Rasha Sabouny, Shadab Batool, Atika Syeda, and Jennifer Chow. (2021) \"A synthetic peptide rescues rat cortical neurons from anesthetic-induced cell death, perturbation of growth and synaptic assembly.\" Scientific Reports\n        \n        Published\n     Citations: 6\n2020\nRS Pishgar, P Wijdenes, F Iqbal, K Haidar, Atika Syeda, NI Syed, and C Dalton. (2020) \"Impact of open surface area of multi-well microelectrode array on mammalian brain cells recording efficiency.\" Microfluidics, BioMEMS, and Medical Microsystems XVIII\n        \n        Published\n     Citations: 2"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research Interests\nMy research lies at the intersection of neuroscience and artificial intelligence, with a focus on leveraging machine learning to understand complex neural systems. I am particularly interested in developing machine learning tools for studying large-scale neuroscience datasets.\n\nNeuroscience Artificial Intelligence Machine Learning Deep Learning Computational Neuroscience Large-scale Data Analysis\n\n\n\n\nProjects\n\n1. Facemap\nDescription: I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicted activity driven by mouse orofacial movements across different cortical regions. It includes a pose estimation model for tracking distinct keypoints on the mouse face and a neural network model for predicting neural activity using the pose estimates.\nTools: Python, TensorFlow, MATLAB.\nCollaborators: Mention any collaborators or labs involved.\nLink: Link to project page or GitHub repository.\n\n\n2. Project Title 2\nDescription: A brief overview of the project, including the problem you’re addressing, your approach, and any preliminary results.\nTools: List of tools or technologies used (e.g., Python, TensorFlow, MATLAB).\nCollaborators: Mention any collaborators or labs involved.\nLink: Link to project page or GitHub repository.\n\n\n\n\nResearch Tools\nI employ a variety of methodologies in my research, including:\n\nData Analysis: Advanced statistical and machine learning techniques to analyze neural data, such as unsupervised and supervised learning.\nProgramming Languages: Python, MATLAB, R, Java.\nMachine Learning Frameworks: PyTorch, TensorFlow.\n\n\n\n\nCollaborations\nI actively collaborate with researchers across disciplines to tackle complex problems in neuroscience and AI. Some of my key collaborations include:\n\nCollaborator Name/Lab: Brief description of the collaboration and its outcomes.\n\nCollaborator Name/Lab: Brief description of the collaboration and its outcomes.\n\n\n\n\nFuture Directions\nI am excited to explore new directions in my research, including:\n\nDirection 1: Brief description of future research goals.\n\nDirection 2: Brief description of future research goals.\n\n\nFeel free to reach out if you’re interested in collaborating or learning more about my work!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a PhD student at Johns Hopkins-HHMI Janelia Research Campus as part of the joint graduate program. My research interests lie at the intersection of neuroscience and AI (machine learning). Check out my projects to learn more about my work."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nJohns Hopkins University & HHMI Janelia Research Campus | MD/VA, USA\nPhD in Neuroscience\n2022 - Present\nUniversity of Oxford | Oxford, UK\nMSc in Neuroscience\n2019 - 2020\nUniversity of Calgary | Calgary, Canada\nBHSc in Bioinformatics\n2015 - 2019"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nHHMI Janelia Research Campus | MD/VA, USA Research/Software consultant\n2019 - 2022"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "About",
+    "section": "Contact Me",
+    "text": "Contact Me\nI’m always open to discussing collaborations, research opportunities, or answering questions about my work. Feel free to reach out using the methods below:\n📧 Email: syedaa [at] janelia [dot] hhmi [dot] org\n- GitHub: github.com/Atika-Syeda\n- LinkedIn: linkedin.com/in/atika-syeda\n- Google Scholar: Google Scholar Profile"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
