@@ -23,14 +23,14 @@ format: html
     </a> <a class="btn btn-outline-dark btn-sm" href="https://www.nature.com/articles/s41593-024-01783-4" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-archive" role='img' aria-label='Published'></i>
         Published
-    </a> <span class='badge bg-secondary'>Citations: 26</span></li>
+    </a> <span class='badge bg-secondary'>Citations: 75</span></li>
 <li class='list-group-item'><strong>Atika Syeda</strong>, Lin Zhong, Renee Tung, Will Long, Marius Pachitariu, and Carsen Stringer. (2024) "Facemap: a framework for modeling neural activity based on orofacial tracking." <em>Nature Neuroscience</em><br><a class="btn btn-outline-dark btn-sm" href="https://github.com/MouseLand/facemap" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-github" role='img' aria-label='Github'></i>
         Github
     </a> <a class="btn btn-outline-dark btn-sm" href="https://www.nature.com/articles/s41593-023-01490-6" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-archive" role='img' aria-label='Published'></i>
         Published
-    </a> <span class='badge bg-secondary'>Citations: 57</span></li></ul>
+    </a> <span class='badge bg-secondary'>Citations: 171</span></li></ul>
 ```
 
 ### 2021{#published-2021}

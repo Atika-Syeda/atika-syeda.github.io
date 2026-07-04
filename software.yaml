@@ -3,6 +3,7 @@
     I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicted activity driven by mouse orofacial movements across different cortical regions. It includes a pose estimation model for tracking distinct keypoints on the mouse face and a neural network model for predicting neural activity using the pose estimates.  
   github: https://github.com/MouseLand/facemap
   package: https://facemap.readthedocs.io/en/stable/
+  paper: https://www.nature.com/articles/s41593-023-01490-6
   logo: "facemap.png"
 
 - title: "Tongue segmentation"
@@ -15,3 +16,4 @@
     I also worked on developing GUI for rastermap algorithm. Rastermap is a discovery algorithm for neural data. The algorithm was written by Carsen Stringer and Marius Pachitariu. 
   github: https://github.com/MouseLand/rastermap
   package: https://pypi.org/project/rastermap/
+  paper: https://www.nature.com/articles/s41593-024-01783-4

@@ -1,0 +1,56 @@
+---
+title: "Research"
+format: html
+---
+
+### Research Interests
+
+My research lies at the intersection of **neuroscience** and **artificial intelligence**, with a focus on leveraging machine learning to understand complex neural systems. I am particularly interested in developing machine learning tools for studying large-scale neuroscience datasets.
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;">
+
+  <span style="background: #e0e7ff; color: #1e40af; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Neuroscience</span>
+
+  <span style="background: #fce7f3; color: #be185d; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Artificial Intelligence</span>
+
+  <span style="background: #d1fae5; color: #065f46; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Machine Learning</span>
+
+  <span style="background: #ede9fe; color: #5b21b6; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Deep Learning</span>
+
+  <span style="background: #ffe4e6; color: #9f1239; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Computational Neuroscience</span>
+
+  <span style="background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Large-scale Data Analysis</span>
+
+</div>
+
+---
+
+### Projects
+
+#### 1. **Facemap**
+
+I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicts neural activity driven by mouse orofacial movements across cortical regions. It includes pose estimation for tracking facial keypoints and a neural network model that maps behavior to neural responses.
+
+**Tools**: Python, TensorFlow, MATLAB  
+**Collaborators**: Add collaborators or lab names here  
+**Link**: [Facemap](https://github.com/MouseLand/facemap)
+
+<!--
+#### 2. **Project Title 2**
+
+**Description**: Brief overview of the project.
+
+**Tools**: Python, PyTorch, etc.  
+**Collaborators**: Lab or collaborators  
+**Link**: [GitHub](#)
+-->
+
+---
+
+### Research Tools
+
+I employ a variety of methodologies in my research, including:
+
+- **Data Analysis**: Statistical modeling, machine learning, and signal processing for neural data
+- **Programming Languages**: Python, MATLAB, R, Java
+- **Machine Learning Frameworks**: PyTorch, TensorFlow

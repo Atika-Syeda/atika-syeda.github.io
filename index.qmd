@@ -1,16 +1,25 @@
 ---
 title: "About"
+
 about:
   template: trestles
-  image: profile.jpeg
+  image: profile.jpg
+
   links:
+    - icon: envelope
+      text: Email
+      href: mailto:syedaa@janelia.hhmi.org
+
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/Atika-Syeda
+
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/atika-syeda-73a556171/
-    - text: Google scholar
+
+    - icon: graduation-cap
+      text: Google Scholar
       href: https://scholar.google.com/citations?user=AebpXJgAAAAJ&hl=en
 ---
 
@@ -19,16 +28,22 @@ I am a PhD student at Johns Hopkins-HHMI Janelia Research Campus as part of the 
 
 ## Education
 
-Johns Hopkins University, HHMI Janelia Research Campus | MD/VA, USA
-PhD in Neuroscience |  2022 - Present
+**Johns Hopkins University & HHMI Janelia Research Campus | MD/VA, USA**  
+PhD in Neuroscience  
+2022 - Present  
 
-University of Oxford | Oxford, UK
-MSc in Neuroscience |  2019 - 2020
+**University of Oxford | Oxford, UK**  
+MSc in Neuroscience  
+2019 - 2020  
 
-University of Calgary | Calgary, Canada
-BHSc in Bioinformatics | 2015 - 2019
+**University of Calgary | Calgary, Canada**  
+BHSc in Bioinformatics  
+2015 - 2019  
 
 
 ## Experience
 
-HHMI Janelia Research Campus | Research/Software consultant | 2019 - 2022
+**HHMI Janelia Research Campus | MD/VA, USA**
+Research/Software consultant  
+2019 - 2022
+
