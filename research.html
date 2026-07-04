@@ -123,8 +123,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#research-interests" id="toc-research-interests" class="nav-link active" data-scroll-target="#research-interests">Research Interests</a></li>
   <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
   <li><a href="#research-tools" id="toc-research-tools" class="nav-link" data-scroll-target="#research-tools">Research Tools</a></li>
-  <li><a href="#collaborations" id="toc-collaborations" class="nav-link" data-scroll-target="#collaborations">Collaborations</a></li>
-  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
   </ul>
 </nav>
     </div>
@@ -154,7 +152,12 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="research-interests">Research Interests</h3>
 <p>My research lies at the intersection of <strong>neuroscience</strong> and <strong>artificial intelligence</strong>, with a focus on leveraging machine learning to understand complex neural systems. I am particularly interested in developing machine learning tools for studying large-scale neuroscience datasets.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;">
-<p><span style="background: #e0e7ff; color: #1e40af; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Neuroscience</span> <span style="background: #fce7f3; color: #be185d; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Artificial Intelligence</span> <span style="background: #d1fae5; color: #065f46; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Machine Learning</span> <span style="background: #ede9fe; color: #5b21b6; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Deep Learning</span> <span style="background: #ffe4e6; color: #9f1239; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Computational Neuroscience</span> <span style="background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Large-scale Data Analysis</span></p>
+<p><span style="background: #e0e7ff; color: #1e40af; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Neuroscience</span></p>
+<p><span style="background: #fce7f3; color: #be185d; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Artificial Intelligence</span></p>
+<p><span style="background: #d1fae5; color: #065f46; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Machine Learning</span></p>
+<p><span style="background: #ede9fe; color: #5b21b6; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Deep Learning</span></p>
+<p><span style="background: #ffe4e6; color: #9f1239; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Computational Neuroscience</span></p>
+<p><span style="background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Large-scale Data Analysis</span></p>
 </div>
 <hr>
 </section>
@@ -162,17 +165,19 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="projects">Projects</h3>
 <section id="facemap" class="level4">
 <h4 class="anchored" data-anchor-id="facemap">1. <strong>Facemap</strong></h4>
-<p><strong>Description</strong>: I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicted activity driven by mouse orofacial movements across different cortical regions. It includes a pose estimation model for tracking distinct keypoints on the mouse face and a neural network model for predicting neural activity using the pose estimates.</p>
-<p><strong>Tools</strong>: Python, TensorFlow, MATLAB.<br>
-<strong>Collaborators</strong>: Mention any collaborators or labs involved.<br>
-<strong>Link</strong>: <a href="#">Link to project page or GitHub repository</a>.</p>
-</section>
-<section id="project-title-2" class="level4">
-<h4 class="anchored" data-anchor-id="project-title-2">2. <strong>Project Title 2</strong></h4>
-<p><strong>Description</strong>: A brief overview of the project, including the problem you’re addressing, your approach, and any preliminary results.</p>
-<p><strong>Tools</strong>: List of tools or technologies used (e.g., Python, TensorFlow, MATLAB).<br>
-<strong>Collaborators</strong>: Mention any collaborators or labs involved.<br>
-<strong>Link</strong>: <a href="#">Link to project page or GitHub repository</a>.</p>
+<p>I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicts neural activity driven by mouse orofacial movements across cortical regions. It includes pose estimation for tracking facial keypoints and a neural network model that maps behavior to neural responses.</p>
+<p><strong>Tools</strong>: Python, TensorFlow, MATLAB<br>
+<strong>Collaborators</strong>: Add collaborators or lab names here<br>
+<strong>Link</strong>: <a href="https://github.com/MouseLand/facemap">Facemap</a></p>
+<!--
+#### 2. **Project Title 2**
+
+**Description**: Brief overview of the project.
+
+**Tools**: Python, PyTorch, etc.  
+**Collaborators**: Lab or collaborators  
+**Link**: [GitHub](#)
+-->
 <hr>
 </section>
 </section>
@@ -180,32 +185,10 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="research-tools">Research Tools</h3>
 <p>I employ a variety of methodologies in my research, including:</p>
 <ul>
-<li><strong>Data Analysis</strong>: Advanced statistical and machine learning techniques to analyze neural data, such as unsupervised and supervised learning.</li>
-<li><strong>Programming Languages</strong>: Python, MATLAB, R, Java.</li>
-<li><strong>Machine Learning Frameworks</strong>: PyTorch, TensorFlow.</li>
+<li><strong>Data Analysis</strong>: Statistical modeling, machine learning, and signal processing for neural data</li>
+<li><strong>Programming Languages</strong>: Python, MATLAB, R, Java</li>
+<li><strong>Machine Learning Frameworks</strong>: PyTorch, TensorFlow</li>
 </ul>
-<hr>
-</section>
-<section id="collaborations" class="level3">
-<h3 class="anchored" data-anchor-id="collaborations">Collaborations</h3>
-<p>I actively collaborate with researchers across disciplines to tackle complex problems in neuroscience and AI. Some of my key collaborations include:</p>
-<ul>
-<li><strong>Collaborator Name/Lab</strong>: Brief description of the collaboration and its outcomes.<br>
-</li>
-<li><strong>Collaborator Name/Lab</strong>: Brief description of the collaboration and its outcomes.</li>
-</ul>
-<hr>
-</section>
-<section id="future-directions" class="level3">
-<h3 class="anchored" data-anchor-id="future-directions">Future Directions</h3>
-<p>I am excited to explore new directions in my research, including:</p>
-<ul>
-<li><strong>Direction 1</strong>: Brief description of future research goals.<br>
-</li>
-<li><strong>Direction 2</strong>: Brief description of future research goals.</li>
-</ul>
-<hr>
-<p>Feel free to reach out if you’re interested in collaborating or learning more about my work!</p>
 
 
 </section>
