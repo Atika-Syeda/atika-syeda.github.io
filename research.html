@@ -105,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./software.html"> 
 <span class="menu-text">Software &amp; Tools</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -121,8 +125,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-interests" id="toc-research-interests" class="nav-link active" data-scroll-target="#research-interests">Research Interests</a></li>
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
+  <li><a href="#high-dimensional-behavior-to-neural-activity-prediction" id="toc-high-dimensional-behavior-to-neural-activity-prediction" class="nav-link active" data-scroll-target="#high-dimensional-behavior-to-neural-activity-prediction">High-Dimensional Behavior to Neural Activity Prediction</a></li>
   <li><a href="#research-tools" id="toc-research-tools" class="nav-link" data-scroll-target="#research-tools">Research Tools</a></li>
   </ul>
 </nav>
@@ -149,44 +152,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="research-interests" class="level3">
-<h3 class="anchored" data-anchor-id="research-interests">Research Interests</h3>
-<p>My research lies at the intersection of <strong>neuroscience</strong> and <strong>artificial intelligence</strong>, with a focus on leveraging machine learning to understand complex neural systems. I am particularly interested in developing machine learning tools for studying large-scale neuroscience datasets.</p>
+<p>My research lies at the intersection of systems neuroscience, computation, and behavior. I investigate how unconstrained, spontaneous behaviors shape neural activity in a behaving animal. By developing scalable, open-source computational tools alongside large-scale neural recordings, my work aims to discover behavioral features shaping cortical computation.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;">
 <p><span style="background: #e0e7ff; color: #1e40af; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Neuroscience</span></p>
 <p><span style="background: #fce7f3; color: #be185d; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Artificial Intelligence</span></p>
-<p><span style="background: #d1fae5; color: #065f46; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Machine Learning</span></p>
 <p><span style="background: #ede9fe; color: #5b21b6; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Deep Learning</span></p>
 <p><span style="background: #ffe4e6; color: #9f1239; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Computational Neuroscience</span></p>
-<p><span style="background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Large-scale Data Analysis</span></p>
+<p><span style="background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Large-scale data analysis</span></p>
 </div>
 <hr>
-</section>
-<section id="projects" class="level3">
-<h3 class="anchored" data-anchor-id="projects">Projects</h3>
-<section id="facemap" class="level4">
-<h4 class="anchored" data-anchor-id="facemap">1. <strong>Facemap</strong></h4>
-<p>I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicts neural activity driven by mouse orofacial movements across cortical regions. It includes pose estimation for tracking facial keypoints and a neural network model that maps behavior to neural responses.</p>
-<p><strong>Tools</strong>: Python, TensorFlow, MATLAB<br>
-<strong>Collaborators</strong>: Add collaborators or lab names here<br>
-<strong>Link</strong>: <a href="https://github.com/MouseLand/facemap">Facemap</a></p>
-<!--
-#### 2. **Project Title 2**
+<section id="high-dimensional-behavior-to-neural-activity-prediction" class="level3">
+<h3 class="anchored" data-anchor-id="high-dimensional-behavior-to-neural-activity-prediction">High-Dimensional Behavior to Neural Activity Prediction</h3>
+<p>To understand the relationship between spontaneous behavior and neural activity, the field of systems neuroscience required automated pipelines. I developed <strong>Facemap</strong>, a framework that utilizes deep learning to track, model, and reduce the dimensionality of complex orofacial movements from raw video data.</p>
+<div>
 
-**Description**: Brief overview of the project.
-
-**Tools**: Python, PyTorch, etc.  
-**Collaborators**: Lab or collaborators  
-**Link**: [GitHub](#)
--->
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/facemap.gif" class="img-fluid figure-img" style="width:200.0%"></p>
+<figcaption>Facemap framework tracking facial keypoints and neural activity prediction.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>Facemap predicts neural activity driven by mouse orofacial movements across cortical regions. It includes pose estimation for tracking facial keypoints and a neural network model that maps behavior to neural responses. The package is implemented in python and utilizes a number of open-source packages, such as pytorch and opencv.</p>
+</div>
+</div>
+</div>
+<p class="text-muted">
+<a href="https://www.nature.com/articles/s41593-023-01490-6" class="text-decoration-none me-3"><i class="bi bi-file-earmark-text"></i> Nature Neuroscience Paper</a> <a href="https://github.com/MouseLand/facemap" target="_blank" class="text-decoration-none me-3"><i class="bi bi-github"></i> Facemap</a> <a href="https://facemap.readthedocs.io" target="_blank" class="text-decoration-none"><i class="bi bi-book"></i> Documentation</a> <a href="https://www.youtube.com/live/auVifWwQaG8?si=-n5srMS85gi-iLid&amp;t=7392" target="_blank" class="text-decoration-none"><i class="bi bi-play-circle"></i> COSYNE Talk</a>
+</p>
 <hr>
+<div>
+
+</div>
 </section>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<section id="modeling-behavior-via-soft-body-object-recognition" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="modeling-behavior-via-soft-body-object-recognition">Modeling Behavior via Soft-body Object Recognition</h3>
+<p>This project focuses on image segmentation of soft-body objects using convolution neural networks. Specifically, the project uses data from a high-speed imaging camera to perform image segmentation to identify and track a soft-body object, i.e.&nbsp;tongue, from static images of mouse faces recorded from a bottom view camera. To perform image segmentation, the project compares different convolution neural networks, including UNet, UNet++, and DeepLabV3, to find a model with the best generalization and test accuracy for the image segmentation task.</p>
 </section>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/tongue.gif" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Tracking of tongue using segmentation model.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p class="text-muted">
+</p></div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<a href="https://github.com/Atika-Syeda/TongueSegmentation/blob/main/syeda-final_report.pdf" class="text-decoration-none me-3"><i class="bi bi-file-earmark-text"></i> Project report</a> <a href="https://github.com/Atika-Syeda/TongueSegmentation" target="_blank" class="text-decoration-none me-3"><i class="bi bi-github"></i> Project Code</a>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p></p>
+</div>
+</div>
+</div>
+<hr>
 <section id="research-tools" class="level3">
 <h3 class="anchored" data-anchor-id="research-tools">Research Tools</h3>
 <p>I employ a variety of methodologies in my research, including:</p>
 <ul>
-<li><strong>Data Analysis</strong>: Statistical modeling, machine learning, and signal processing for neural data</li>
+<li><strong>Data Analysis</strong>: Supervised and unsupervised machine learning, deep learning, signal processing techniques</li>
 <li><strong>Programming Languages</strong>: Python, MATLAB, R, Java</li>
 <li><strong>Machine Learning Frameworks</strong>: PyTorch, TensorFlow</li>
 </ul>
