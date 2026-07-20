@@ -107,7 +107,7 @@ for year in sorted(pub_strs.keys(), reverse=True):
 
 #### Facemap: a framework for modeling neural activity based on orofacial tracking
 
-- **2026** — **Invited Workshop Talk**, [NeuroDataReHack 2025 (NWB Workshop)](https://nwb.org/events/hck26-2026-janelia-ndrh/)
+- **2026** — **Invited Workshop Talk**, [NeuroDataReHack 2026 (NWB Workshop)](https://nwb.org/events/hck26-2026-janelia-ndrh/)
 - **2026** — **Software Demo**, DANDI Booth, Open Neurodata & Tools Showcase
 - **2025** — **Invited Workshop Talk**, [NeuroDataReHack 2025 (NWB Workshop)](https://nwb.org/news/neurodatarehack-2025-videos-announcement/)
 - **2023** — **Poster**, Society for Neuroscience (SfN)
