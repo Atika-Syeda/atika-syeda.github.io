@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Atika Syeda"
 
 about:
   template: trestles
@@ -23,7 +23,8 @@ about:
       href: https://scholar.google.com/citations?user=AebpXJgAAAAJ&hl=en
 ---
 
-I am a PhD student at Johns Hopkins-HHMI Janelia Research Campus as part of the joint graduate program. My research interests lie at the intersection of neuroscience and AI (machine learning). Check out my projects to learn more about my work.
+I am a PhD student in neuroscience in the joint **Johns Hopkins University–HHMI Janelia Research Campus Graduate Program**, where I am jointly advised by the [Stringer & Pachitariu Lab](https://mouseland.github.io). My research lies at the intersection of neuroscience and artificial intelligence, with a particular focus on developing machine learning methods to better understand large-scale neural datasets.
+
 
 
 ## Education
@@ -37,7 +38,7 @@ MSc in Neuroscience
 2019 - 2020  
 
 **University of Calgary | Calgary, Canada**  
-BHSc in Bioinformatics  
+BHSc in Bioinformatics (Hons)  
 2015 - 2019  
 
 

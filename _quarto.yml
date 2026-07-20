@@ -10,9 +10,13 @@ website:
       - research.qmd
       - publications.qmd 
       - software.qmd
+      - teaching.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">

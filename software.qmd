@@ -1,5 +1,5 @@
 ---
-title: "Software"
+title: "Software & Tools"
 echo: false
 jupyter: python3
 section-divs: false
@@ -49,10 +49,11 @@ for idx, data in enumerate(yaml_data):
             <p>{data["description"]}</p>
             {" ".join([
                 button(data.get('website', ''), "Website", "bi-info") if "website" in data else "",
-                button(data.get('github', ''), "Github", "bi-github") if "github" in data else "",
-                button(data.get('package', ''), "Package", "bi-box-seam") if "package" in data else "", 
-                button(data.get('paper', ''), "Paper", "bi-info") if "paper" in data else "",
-            ])} 
+                button(data.get('github', ''), "GitHub", "bi-github") if "github" in data else "",
+                button(data.get('package', ''), "Package", "bi-box-seam") if "package" in data else "",
+                button(data.get('paper', ''), "Paper", "bi-file-earmark-text") if "paper" in data else "",
+                button(data.get('tutorial', ''), "Tutorial", "bi-youtube") if "tutorial" in data else "",
+            ])}
         </div>
     </div>
     """))

@@ -1,0 +1,36 @@
+---
+title: "Teaching"
+---
+
+I enjoy teaching at the intersection of neuroscience, machine learning, and quantitative methods. My teaching experience includes mentoring students in computational neuroscience as well as undergraduate instruction in chemistry.
+
+---
+
+### Teaching Assistant  
+**Neuromatch NeuroAI Course** *(2024)*
+
+- Teaching assistant for an international intensive course on computational neuroscience and artificial intelligence.
+- Supported a cohort of approximately **15 students** through tutorials and discussions.
+- Assisted students with machine learning concepts and neural data analysis.
+
+<div style="margin-top: 0.5rem;">
+<a href="https://neuromatch.io/neuroai-course/" target="_blank" class="btn btn-outline-primary">
+Visit Course Website
+</a>
+</div>
+
+---
+
+### Teaching Assistant  
+**Second-Year Organic Chemistry**  
+*University of Calgary (2018–2019)*
+
+- Assisted with undergraduate course instruction.
+- Guided students through organic chemistry topics and problem-solving.
+- Supported student learning through peer-assisted teaching.
+
+<div style="margin-top: 0.5rem;">
+<a href="https://www.ucalgary.ca/student-services/student-success/learning-support/pass" target="_blank" class="btn btn-outline-primary">
+Visit Website
+</a>
+</div>

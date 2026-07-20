@@ -3,9 +3,7 @@ title: "Research"
 format: html
 ---
 
-### Research Interests
-
-My research lies at the intersection of **neuroscience** and **artificial intelligence**, with a focus on leveraging machine learning to understand complex neural systems. I am particularly interested in developing machine learning tools for studying large-scale neuroscience datasets.
+My research lies at the intersection of systems neuroscience, computation, and behavior. I investigate how unconstrained, spontaneous behaviors shape neural activity in a behaving animal. By developing scalable, open-source computational tools alongside large-scale neural recordings, my work aims to discover behavioral features shaping cortical computation.
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;">
 
@@ -13,44 +11,54 @@ My research lies at the intersection of **neuroscience** and **artificial intell
 
   <span style="background: #fce7f3; color: #be185d; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Artificial Intelligence</span>
 
-  <span style="background: #d1fae5; color: #065f46; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Machine Learning</span>
-
   <span style="background: #ede9fe; color: #5b21b6; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Deep Learning</span>
 
   <span style="background: #ffe4e6; color: #9f1239; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Computational Neuroscience</span>
 
-  <span style="background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Large-scale Data Analysis</span>
+  <span style="background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">Large-scale data analysis</span>
 
 </div>
 
 ---
 
-### Projects
 
-#### 1. **Facemap**
+### High-Dimensional Behavior to Neural Activity Prediction
+To understand the relationship between spontaneous behavior and neural activity, the field of systems neuroscience required automated pipelines. I developed **Facemap**, a framework that utilizes deep learning to track, model, and reduce the dimensionality of complex orofacial movements from raw video data. 
 
-I developed Facemap for predicting activity of ~50,000 neurons recorded with 2-photon calcium imaging in mice. Facemap predicts neural activity driven by mouse orofacial movements across cortical regions. It includes pose estimation for tracking facial keypoints and a neural network model that maps behavior to neural responses.
+::: {layout-ncol=2}
+![Facemap framework tracking facial keypoints and neural activity prediction.](images/facemap.gif){width="200%"}
 
-**Tools**: Python, TensorFlow, MATLAB  
-**Collaborators**: Add collaborators or lab names here  
-**Link**: [Facemap](https://github.com/MouseLand/facemap)
+Facemap predicts neural activity driven by mouse orofacial movements across cortical regions. It includes pose estimation for tracking facial keypoints and a neural network model that maps behavior to neural responses. The package is implemented in python and utilizes a number of open-source packages, such as pytorch and opencv.
+:::
 
-<!--
-#### 2. **Project Title 2**
-
-**Description**: Brief overview of the project.
-
-**Tools**: Python, PyTorch, etc.  
-**Collaborators**: Lab or collaborators  
-**Link**: [GitHub](#)
--->
+<p class="text-muted">
+  <a href="https://www.nature.com/articles/s41593-023-01490-6" class="text-decoration-none me-3"><i class="bi bi-file-earmark-text"></i> Nature Neuroscience Paper</a>
+  <a href="https://github.com/MouseLand/facemap" target="_blank" class="text-decoration-none me-3"><i class="bi bi-github"></i> Facemap</a>
+  <a href="https://facemap.readthedocs.io" target="_blank" class="text-decoration-none"><i class="bi bi-book"></i> Documentation</a>
+  <a href="https://www.youtube.com/live/auVifWwQaG8?si=-n5srMS85gi-iLid&t=7392" target="_blank" class="text-decoration-none"><i class="bi bi-play-circle"></i> COSYNE Talk</a>
+</p>
 
 ---
+
+::: {layout-ncol=2}
+### Modeling Behavior via Soft-body Object Recognition
+This project focuses on image segmentation of soft-body objects using convolution neural networks. Specifically, the project uses data from a high-speed imaging camera to perform image segmentation to identify and track a soft-body object, i.e. tongue, from static images of mouse faces recorded from a bottom view camera. To perform image segmentation, the project compares different convolution neural networks, including UNet, UNet++, and DeepLabV3, to find a model with the best generalization and test accuracy for the image segmentation task.
+
+![Tracking of tongue using segmentation model.](images/tongue.gif){width="100%"}
+
+<p class="text-muted">
+  <a href="https://github.com/Atika-Syeda/TongueSegmentation/blob/main/syeda-final_report.pdf" class="text-decoration-none me-3"><i class="bi bi-file-earmark-text"></i> Project report</a>
+  <a href="https://github.com/Atika-Syeda/TongueSegmentation" target="_blank" class="text-decoration-none me-3"><i class="bi bi-github"></i> Project Code</a>
+</p>
+:::
+
+---
+
 
 ### Research Tools
 
 I employ a variety of methodologies in my research, including:
 
-- **Data Analysis**: Statistical modeling, machine learning, and signal processing for neural data
+- **Data Analysis**: Supervised and unsupervised machine learning, deep learning, signal processing techniques
 - **Programming Languages**: Python, MATLAB, R, Java
 - **Machine Learning Frameworks**: PyTorch, TensorFlow
